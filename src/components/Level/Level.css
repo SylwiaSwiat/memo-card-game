@@ -1,0 +1,23 @@
+button.lvlButton {
+  font-size: 0.5rem;
+  font-weight: bold;
+  height: 1.5rem;
+  background: #FF7F11;
+  outline: none;
+}
+button.lvlButton:hover {
+  border-color: transparent;
+}
+
+@media all and (min-width: 768px) {
+  button.lvlButton {
+    font-size: 1rem;
+    height: 2.5rem;
+  }
+  button.lvlButton:hover {
+    border-color: rgba(48, 227, 202, 0.6);
+  }
+  button.lvlButton:focus, button.lvlButton:focus-visible {
+    outline: none;
+  }
+}

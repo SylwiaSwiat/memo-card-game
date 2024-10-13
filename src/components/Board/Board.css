@@ -1,0 +1,21 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 3rem);
+  grid-gap: 0.5rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+@media all and (min-width: 768px) {
+  .board {
+    grid-template-columns: repeat(6, 6rem);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media all and (min-width: 1440px) {
+  .board {
+    grid-template-columns: repeat(6, 12rem);
+    grid-gap: 2rem;
+  }
+}

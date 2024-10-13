@@ -1,0 +1,26 @@
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    margin: .5rem;
+
+   li.result {
+    font-size: .5rem;
+    } 
+}
+
+@media all and (min-width: 768px) {
+h2 {
+    font-size: 1.5rem;
+}
+
+ul {
+   li.result {
+    font-size: .75rem;
+    } 
+}
+}

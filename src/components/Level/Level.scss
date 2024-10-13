@@ -1,0 +1,28 @@
+@import '../variables/variables.scss';
+
+button.lvlButton {
+    font-size: .5rem;
+    font-weight: bold;
+    height: 1.5rem;
+    background: $level-color;
+    outline: none;
+
+    &:hover {
+        border-color: transparent;
+    }
+}
+
+@media all and (min-width: 768px) {
+    button.lvlButton {
+        font-size: 1rem;
+        height: 2.5rem;
+
+        &:hover {
+            border-color: $glow-color;
+        }
+
+        &:focus, &:focus-visible {
+            outline: none;
+        }
+    }
+  }

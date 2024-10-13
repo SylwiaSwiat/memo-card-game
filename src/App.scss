@@ -1,0 +1,74 @@
+@import './variables.scss';
+
+.App {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  height: fit-content;
+  padding: 1rem;
+  background-color: $background-color;
+  min-height: 100vh;
+  color: $text-color;
+
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+
+    .newGameButton {
+      font-size: .5rem;
+      height: 1.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .gameInfo {
+    display: none;
+  }
+  
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .App {
+    .buttonContainer {
+      width: 28rem;
+      .newGameButton {
+      font-size: 1rem;
+      height: 2.5rem;
+      background-color: $newGameButton-color;
+      margin-right: 2rem;
+
+      &:hover {
+        border-color: $level-color;
+      }
+
+      &:focus, &:focus-visible {
+        outline: none;
+    }
+  }
+    } 
+}
+}
+
+@media all and (min-width: 1440px) {
+.footerInfo {
+   position: absolute;
+   top: 2rem;
+   right: calc(50% - 40rem);
+   height: 6.5rem;
+   width: 20rem;
+   justify-content: space-between;
+  }
+}
