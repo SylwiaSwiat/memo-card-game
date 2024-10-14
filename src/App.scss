@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     column-gap: .5rem;
+    color: $background-color;
 
     .newGameButton {
       font-size: .5rem;
@@ -44,6 +45,7 @@
   .App {
     .buttonContainer {
       width: 28rem;
+    
       .newGameButton {
       font-size: 1rem;
       height: 2.5rem;
