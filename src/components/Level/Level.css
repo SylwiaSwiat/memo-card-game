@@ -4,6 +4,7 @@ button.lvlButton {
   height: 1.5rem;
   background: #FF7F11;
   outline: none;
+  color: #0D120E;
 }
 button.lvlButton:hover {
   border-color: transparent;
@@ -20,4 +21,4 @@ button.lvlButton:hover {
   button.lvlButton:focus, button.lvlButton:focus-visible {
     outline: none;
   }
-}
+}/*# sourceMappingURL=Level.css.map */

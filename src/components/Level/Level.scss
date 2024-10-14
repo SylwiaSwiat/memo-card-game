@@ -6,6 +6,7 @@ button.lvlButton {
     height: 1.5rem;
     background: $level-color;
     outline: none;
+    color: $background-color;
 
     &:hover {
         border-color: transparent;
