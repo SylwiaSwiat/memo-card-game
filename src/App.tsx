@@ -1,5 +1,5 @@
 import 'normalize.css';
-import './App.css';
+import './App.scss';
 import { useState, useEffect, useRef } from 'react';
 import Board from './components/Board/Board';
 import Level from './components/Level/Level';
